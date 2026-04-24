@@ -1,0 +1,21 @@
+body {
+  font-family: var(--font-family-base);
+  color: var(--color-gray);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  color: var(--color-gray);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-dark);
+}

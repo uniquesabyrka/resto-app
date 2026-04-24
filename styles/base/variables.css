@@ -1,0 +1,16 @@
+:root {
+  --color-dark: #1c1c1c;
+  --color-light: #fff;
+  --color-gray: #555;
+
+  --gradient-header: linear-gradient(90deg, #fedd2c 0%, #f9c201 100%);
+  --gradient-card: linear-gradient(180deg, rgb(0 0 0 / 0) 50%, rgba(0 0 0 / 0.5) 100%);
+
+  --border-radius: 16px;
+
+  --font-family-base: 'Inter', sans-serif;
+
+  --container-width: 1440px;
+
+  --transition-duration: 0.2s;
+}

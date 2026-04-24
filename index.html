@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto App</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a href="/" class="header__logo logo" title="Home" aria-label="Home">
+          <img src="./images/logo.svg" alt="" class="logo__image" width="137" height="22" />
+        </a>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Меню</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Акции</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">О нас</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">События</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Зоны доставки</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__contacts">
+          <a href="tel:+01234567890" class="header__contacts-phone">+0 (123) 456 78-90</a>
+          <p class="header__contacts-time">
+            Прием заказов с <time datetime="10:00">10:00</time> до
+            <time datetime="22:40">22:40</time>
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="menu container">
+        <h1 class="menu__title">Меню</h1>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="/" class="menu__card menu-card">
+              <img
+                src="./images/menu/1.jpg"
+                alt="Пицца"
+                class="menu-card__image"
+                width="304"
+                height="304"
+              />
+              <h3 class="menu-card__title">Пицца</h3>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="/" class="menu__card menu-card">
+              <img
+                src="./images/menu/2.jpg"
+                alt="Супы"
+                class="menu-card__image"
+                width="304"
+                height="304"
+              />
+              <h3 class="menu-card__title">Супы</h3>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="/" class="menu__card menu-card">
+              <img
+                src="./images/menu/3.jpg"
+                alt="Горячие блюда"
+                class="menu-card__image"
+                width="304"
+                height="304"
+              />
+              <h3 class="menu-card__title">Горячие блюда</h3>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="/" class="menu__card menu-card">
+              <img
+                src="./images/menu/4.jpg"
+                alt="Салаты"
+                class="menu-card__image"
+                width="304"
+                height="304"
+              />
+              <h3 class="menu-card__title">Салаты</h3>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
