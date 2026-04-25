@@ -1,5 +1,10 @@
+html {
+  scrollbar-width: none;
+}
+
 body {
   font-family: var(--font-family-base);
+  letter-spacing: 0.02em;
   color: var(--color-gray);
 }
 
